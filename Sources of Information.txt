@@ -1,0 +1,14 @@
+For Question 1: 
+
+
+https://www.tutorialspoint.com/javaexamples/data_intopost.htm
+
+http://www.java.achchuthan.org/2012/03/convert-infix-to-postfix-using-stack-in.html
+
+
+For Question 2:
+
+https://stackoverflow.com/questions/11000975/are-static-variables-serialized-in-serialization-process
+
+https://stackoverflow.com/questions/12775938/how-come-static-variable-is-serialized
+

@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.16299.19]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Bharat's PC>cd C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>javac Calculator.java
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator
+Exception in thread "main" DumbassException: You didn't enter anything, please run the program again with a valid input.
+        at Calculator.convertToPostfix(Calculator.java:24)
+        at Calculator.main(Calculator.java:10)
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator 2 + 3 X 6.66 / 2
+The postfix expression is:  2  3  6.66 X 2 / +
+The result of calculation is: 11.99
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator + 5
+Exception in thread "main" LookAtMrAlgebraOverHereException: A number is expected. You entered something else. Please rerun the program and provide valid numbers.
+        at Calculator.convertToPostfix(Calculator.java:27)
+        at Calculator.main(Calculator.java:10)
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator ( 25 / 5 ) X ( 100 / 10 ) + 5
+The postfix expression is:   25  5 /   100  10 / X 5 +
+The result of calculation is: 55.0
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator ( 87 X 2 ) + ( 67 / 0 )
+The postfix expression is:   87  2 X   67  0 / +
+Exception in thread "main" java.lang.ArithmeticException: Can't divide by zero, DUMBASS!
+        at Calculator.postfixEvaluate(Calculator.java:105)
+        at Calculator.main(Calculator.java:14)
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator r X 5
+Exception in thread "main" LookAtMrAlgebraOverHereException: A number is expected. You entered something else. Please rerun the program and provide valid numbers.
+        at Calculator.convertToPostfix(Calculator.java:33)
+        at Calculator.main(Calculator.java:10)
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>java Calculator 34 # 5 $ 2
+Exception in thread "main" IllegalOperationException: Unsupported operator entered. Supported operators are: ( ), +, -, /, *, and %
+        at Calculator.convertToPostfix(Calculator.java:41)
+        at Calculator.main(Calculator.java:10)
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 7\src>
